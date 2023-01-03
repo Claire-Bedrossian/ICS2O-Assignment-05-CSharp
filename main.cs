@@ -23,12 +23,13 @@ class Program
         Console.Write("Enter value b: ");
         valB = Convert.ToDouble(Console.ReadLine());
         counter = 0;
-        product = valB; 
+        product = valB;
         Console.WriteLine("");
-        while (counter < Math.Abs(valX)) {
-         counter++;
-         product = product + Math.Abs(valM);
-         Console.WriteLine("The X value is " + counter + ".  The Y value is " + product +".");
+        while (counter < Math.Abs(valX))
+        {
+            counter++;
+            product = product + Math.Abs(valM);
+            Console.WriteLine("The X value is " + counter + ".  The Y value is " + product + ".");
         }
         Console.WriteLine("");
         Console.WriteLine("\nDone.");
